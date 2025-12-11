@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+.bar-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#bar-container {
+  display: inline-block;
+}
+
 .wrapper {
   width: calc(35% + 300px);
   padding: 25px;
@@ -209,4 +218,5 @@ header h1 {
   height: auto;
   border-radius: 10px;
   object-fit: cover;
+
 }
